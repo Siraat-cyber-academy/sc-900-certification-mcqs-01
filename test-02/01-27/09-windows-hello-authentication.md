@@ -9,8 +9,6 @@
 
 ## 📝 Options (Team Voices)  
 
-⚠️ Note: Options are phrased to appear **tricky and plausible**, so each looks somewhat correct at first glance.  
-
 A. 🇩🇰 **Eks2 – The Curious Whisper**:  
 "A short **PIN** code tied directly to the device, quick to enter yet bound to hardware for extra security."  
 
