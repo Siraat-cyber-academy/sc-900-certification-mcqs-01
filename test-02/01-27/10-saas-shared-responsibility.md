@@ -9,8 +9,6 @@ At **NextWave Solutions**, the IT compliance team is reviewing the **Shared Resp
 
 ## 📝 Options (Team Voices)
 
-⚠️ Note: Each option is phrased in a **tricky and plausible way**, so that all seem correct at first glance.  
-
 A. 🇩🇰 **Eks2 – The Curious Whisper**:  
 "Securing the underlying infrastructure, making sure the data centers and base systems stay safe."  
 
