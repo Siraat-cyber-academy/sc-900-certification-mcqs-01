@@ -3,7 +3,7 @@
 **Question 12**
 
 ## 🌍 Scenario
-At **SkyNetics Corp**, the IT department is planning to roll out **Azure Active Directory (Azure AD)** for identity and access management. A discussion arises: *Do all editions of Azure Active Directory provide the exact same set of features, or are there differences between them?*  
+At **SkyNetics Corp**, the IT department is planning to roll out **Microsoft Entra ID (previously known as Azure Active Directory – Azure AD)** for identity and access management. A discussion arises: *Do all editions of Microsoft Entra ID provide the exact same set of features, or are there differences between them?*  
 
 ---
 
@@ -34,7 +34,7 @@ D. 🇨🇳 **Maya Lin – The Rookie**:
 "The truth lies not in sameness, but in the diversity of tiers. Each edition unfolds a different layer of capability."  
 
 🇷🇺 **Elina Petrova – The Cloud Whiz**:  
-"Technically, Azure AD editions differ: Free provides basics, P1 adds conditional access and hybrid identity, while P2 includes advanced security like Identity Protection and Privileged Identity Management."  
+"Technically, Microsoft Entra ID editions differ: Free provides basics, P1 adds conditional access and hybrid identity, while P2 includes advanced security like Identity Protection and Privileged Identity Management."  
 
 🇪🇸 **Inky Rihan – The Phantom**:  
 "If one assumes all editions are equal, attackers rejoice — since missing features like PIM or risk-based conditional access mean weaker defense in some tiers."  
@@ -46,7 +46,7 @@ D. 🇨🇳 **Maya Lin – The Rookie**:
 "For users, this matters — small teams may start with Free, but enterprises that need stronger security must step into P1 or P2."  
 
 🇨🇳 **Maya Lin – The Rookie**:  
-"I first thought ‘Yes’ because all editions say ‘Azure AD’ — but now I realize features like PIM aren’t in the Free tier."  
+"I first thought ‘Yes’ because all editions say Entra ID — but now I realize features like PIM aren’t in the Free tier."  
 
 🕶️ **ShadowNet – The Phantom Adversary**:  
 "If SkyNetics assumes all tiers protect equally, I’ll slip in where conditional access or Identity Protection is missing."  
@@ -54,7 +54,7 @@ D. 🇨🇳 **Maya Lin – The Rookie**:
 ---
 
 ## 🌟 Lesson
-👉 **Azure Active Directory editions differ — Free, P1, and P2 each unlock different levels of security and management features.**
+👉 **Microsoft Entra ID (Azure AD) editions differ — Free, P1, and P2 each unlock different levels of security and management features.**
 
 ---
 
