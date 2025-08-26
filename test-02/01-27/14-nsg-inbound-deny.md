@@ -1,60 +1,72 @@
-# 🔐 Cybersecurity MCQ
+# 🔐 Cybersecurity MCQ  
 
-**Question 14**
+**Question Number 14**  
 
-## 🌍 Scenario
-At **NetSecure Dynamics**, the IT team is deploying **Azure Network Security Groups (NSGs)** to tighten security controls. A team member suggests blocking *all inbound traffic* from the Internet. The question arises: *Is this possible using Network Security Groups?*  
+## 🌍 Scenario  
+At **NordShield Technologies**, the IT security team is planning to strengthen its cloud network boundaries.  
+One engineer suggests:  
+
+> “Why don’t we configure Network Security Groups (NSGs) in Azure to block all inbound traffic from the Internet?  
+Would that even be possible?”  
+
+So, what’s the right answer?  
 
 ---
 
-## 📝 Options (Team Voices)
+## 📝 Options (Team Voices)  
 
 A. 🇩🇰 **Eks2 – The Curious Whisper**:  
-"Yes, NSGs can be configured with deny rules that block every inbound packet from the Internet."  
+“Yes… NSGs can be tuned like gates — just close them fully and deny every inbound request, even from the Internet.”  
 
 B. 🇪🇸 **Sofia Zaymera – The Calm Guardian**:  
-"No, NSGs are only designed to filter outbound traffic — inbound restrictions must be handled elsewhere."  
+“Not exactly… NSGs only allow *filtering* but cannot completely block all inbound Internet traffic.”  
 
 C. 🇮🇹 **Isabella Konti – The Empathic Firewall**:  
-"Yes, but it requires custom routing tables in addition to NSGs to fully enforce denial of inbound traffic."  
+“Well… it depends. Some inbound traffic rules will always be enforced by Azure, so you can’t fully deny everything.”  
 
 D. 🇨🇳 **Maya Lin – The Rookie**:  
-"Not directly — NSGs can allow or deny based on ports, but completely blocking the Internet is handled by a firewall."  
+“I think no… because inbound Internet traffic is controlled by Azure Firewall, not by NSGs directly.”  
 
 ---
 
-## ✅ Correct Answer
-**Correct Option: A – Yes, NSGs can be configured with deny rules that block every inbound packet from the Internet.**
+## ✅ Correct Answer  
+**Correct Option: A – Yes, NSGs can be configured to deny all inbound Internet traffic.**  
 
 ---
 
-## 💬 Team Discussion (Explanations)
+## 💬 Team Discussion (Explanations)  
 
 🇵🇰 **I.K. – The Unseen Mentor**:  
-"Like gates that close firmly against the storm, NSGs allow you to deny all inbound winds from the Internet. Only when you choose to open them does the breeze come through."  
+“Like a fortress that closes every gate at dusk, the NSG can deny every step entering from the Internet.  
+The silence of denial is also protection — a choice of strength, not weakness.”  
 
 🇷🇺 **Elina Petrova – The Cloud Whiz**:  
-"Technically, NSGs operate at Layer 3 & 4, allowing admins to create rules for inbound and outbound traffic. Setting a blanket deny on inbound Internet traffic is fully possible."  
+“By default, NSGs deny inbound traffic unless an allow rule is set.  
+Admins can configure explicit deny rules to ensure that *all Internet inbound traffic* is rejected.  
+This is why Option A stands correct.”  
 
 🇪🇸 **Inky Rihan – The Phantom**:  
-"Some may wrongly assume NSGs only manage outbound flows, or that you need firewalls. That’s the trap. NSGs are perfectly capable of denying inbound traffic."  
+“Options B and C confuse the learner — but that’s the trick.  
+Azure does enforce platform rules, but NSGs absolutely can shut down inbound Internet traffic at the subnet or NIC level.  
+And Option D? That’s a rookie trap — Azure Firewall is separate, but NSGs already provide inbound filtering.”  
 
 🇩🇰 **Kasper Madsen – The Joyful Specialist**:  
-"Think of it as a nightclub door: if you put a rule saying ‘nobody comes in,’ the bouncers (NSGs) will enforce it without hesitation."  
+“Think of NSGs like a bouncer outside the club.  
+If the order is ‘let nobody in,’ then nobody’s getting in — no matter how loud they knock.”  
 
 🇮🇹 **Isabella Konti – The Empathic Firewall**:  
-"From a user perspective, NSGs give IT peace of mind. They control not only what goes out but also what comes in, ensuring safety from unwanted connections."  
+“When IT communicates such rules clearly, employees feel safer — knowing their cloud boundary is not porous but protected.”  
 
 🇨🇳 **Maya Lin – The Rookie**:  
-"I thought inbound traffic always needed a firewall. Now I see NSGs themselves can handle it with the right deny rules."  
+“I thought only Azure Firewall could do that. Now I see: NSGs alone can already stop all inbound Internet traffic.”  
 
-🕶️ **ShadowNet – The Phantom Adversary**:  
-"If admins forget to deny inbound traffic, I slip in unnoticed. NSGs are the locks; without them, the gates stand wide open."  
+🕶️ **ShadowNet – The Phantom Adversary** *(risk born from neglect)*:  
+“If the gate is left ajar, I enter unseen. But when NSGs lock the path completely, I am left wandering in the dark.”  
 
 ---
 
-## 🌟 Lesson
-👉 **Azure Network Security Groups (NSGs) can deny all inbound Internet traffic — they act as traffic filters at the network level.**
+## 🌟 Lesson  
+👉 **Network Security Groups can be configured to deny all inbound Internet traffic — acting as the first line of defense in Azure.**  
 
 ---
 
